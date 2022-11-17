@@ -4,10 +4,10 @@ on: [workflow_dispatch]
 jobs:
   build:
     runs-on: ubuntu-latest
-    environment: production
+    environment: krcg.org
     steps:
       - uses: actions/checkout@v3
-      - name: webfactory/ssh-agent
+      - name: Setup SSH key
         uses: webfactory/ssh-agent@v0.7.0
         with:
           ssh-private-key: ${{ secrets.KRCG_DEPLOY_KEY }}
