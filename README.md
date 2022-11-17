@@ -33,23 +33,9 @@ Then call `make update` to install the Python requirements. You're ready.
 - To generate the plugin list and version files: `make list`
 - Update `CHANGELOG.md` file
 - Commit and push your results
-- Make sure [the tests pass](https://github.com/lionel-panhaleux/vtes-lackeyccg-plugin/actions)
-- [Tag it](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
-- Use `make build` to build the plugin `zip` and `tar.gz` files in the `build` folder
-- Create a [release in Github](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases), upload the `zip` and `tar.gz` files
+- Release: `make release`. This will check everything and tag the version.
+- Create a [release in Github](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases), upload the `zip` and `tar.gz` files sitting in the `build` folder.
 
 ### Put it online
 
-The access to the current update server (`krcg.org`) is private for now.
-In the future, I will try to setup the proper Github actions so that every administrator
-can update and deploy the plugin.
-
-In the mean time, you can host the plugin your own server with a simple variable change:
-
-```bash
-SERVER_HTTP=https://example.com/path_to_plugin make list
-SERVER_SSH=example.com:server/path_to_plugin make static
-```
-
-You need to be able to connect via `ssh` to your server for this command to work.
-Do not forget to regenerate the `updatelist.txt` file when changing the server URL.
+Go to Github Actions tab and use the `Deployment` action. Just select your tag and run it.

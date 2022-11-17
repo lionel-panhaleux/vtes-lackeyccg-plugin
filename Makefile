@@ -34,8 +34,8 @@ check:
 	if [`git branch --show-current` = "main"]; then $(error not on main branch) fi
 	if [ ! -z `git status --porcelain` ]; then $(error working directory is dirty) fi
 
-# release (make sure there is no change, then tag and push)
-release: version cards list check
+# release (make sure there is no change, build the archive files, then tag and push)
+release: version cards list check build
 	git tag ${VERSION}
 	git push origin ${VERSION}
 
