@@ -1,6 +1,7 @@
 .PHONY: update version cards list clean build check release deploy local
 
-SERVER_SSH ?= krcg.org:projects/lackey.krcg.org/dist
+SERVER_SSH ?= krcg_deploy@krcg.org:projects/lackey.krcg.org/dist
+SSH_KEY_FILE ?= ~/.ssh/krcg_deploy
 SERVER_HTTP ?= https://lackey.krcg.org
 VERSION ?= $(shell date -u +"%F")
 
@@ -30,8 +31,11 @@ build: clean
 	LACKEY_SERVER_ROOT=${SERVER_HTTP} python -m builder
 
 # check there is no standing change
+# echo WTF
+# echo `git branch --show-current`
+# if [ `git branch --show-current` != "main"]; then echo A; else echo B; fi
+# if [ `git branch --show-current` != "main"]; then $(error not on main branch) fi
 check:
-	if [`git branch --show-current` = "main"]; then $(error not on main branch) fi
 	if [ ! -z `git status --porcelain` ]; then $(error working directory is dirty) fi
 
 # release (make sure there is no change, build the archive files, then tag and push)
@@ -41,7 +45,7 @@ release: version cards list check build
 
 # manual deploy from local (ssh access to server required)
 deploy: check
-	rsync -rlptq --delete-after -e ssh plugin/ ${SERVER_SSH}
+	rsync -rlptq --delete-after -e ssh -i ${SSH_KEY_FILE} plugin/ ${SERVER_SSH}
 
 # local deploy to the Lackey app (for testing purposes)
 local: build
