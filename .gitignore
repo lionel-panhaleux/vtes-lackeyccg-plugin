@@ -3,4 +3,5 @@ high/cards
 .ftpquota
 .vscode
 *.DS_Store
+*__pycache__
 _old

@@ -1,8 +1,12 @@
 name: Release
-run-name: ${{ github.actor }} is releasing VTES LackeyCCG plugin 🚀
+run-name: ${{ github.actor }} is releasing VTES LackeyCCG plugin manually 🚀
 on:
-  create:
-    ref_type: [tag]
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Release version"
+        required: true
+        type: string
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -25,10 +29,10 @@ jobs:
       - name: Upload zip
         uses: actions/upload-artifact@v3
         with:
-          name: ${{ inputs.ref_name  }}/vtes-lackey.zip
+          name: manual/${{ inputs.version  }}/vtes-lackey.zip
           path: build/vtes-lackey.zip
       - name: Upload gzip
         uses: actions/upload-artifact@v3
         with:
-          name: ${{ inputs.ref_name  }}/vtes-lackey.tar.gz
+          name: manual/${{ inputs.version  }}/vtes-lackey.tar.gz
           path: build/vtes-lackey.tar.gz
