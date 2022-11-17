@@ -58,6 +58,9 @@ with open("plugin/version.txt", "w") as fp:
 with open("plugin/updatelist.txt", "w") as fp:
     print("vtes", f"{version_date:%m-%d-%y}", sep="\t", file=fp)
     for dirpath, dirnames, filenames in os.walk("plugin"):
+        # build an release check for modifications, make sure the order is stable
+        dirnames.sort()
+        filenames.sort()
         for filename in sorted(filenames):
             if filename in [".DS_Store", "updatelist.txt", "index.html"]:
                 continue
