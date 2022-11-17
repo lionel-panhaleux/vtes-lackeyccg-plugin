@@ -10,8 +10,8 @@ jobs:
       - name: Setup SSH key
         run: |
           mkdir /home/runner/.ssh
-          echo "${{ secrets.KRCG_DEPLOY_KEY }}" > /home/runner/.ssh/krcg_deploy
-          chmod 600 /home/runner/.ssh/krcg_deploy
+          echo "${{ secrets.KRCG_DEPLOY_KEY }}" > /home/runner/.ssh/id_rsa
+          chmod 600 /home/runner/.ssh/id_rsa
           echo "${{ secrets.KRCG_HOST_ID }}" > /home/runner/.ssh/known_hosts
       - name: Deploy files to server
-        run: rsync -rlptq --delete-after -e "ssh -l krcg_deploy -i /home/runner/.ssh/krcg_deploy" plugin/ krcg.org:projects/lackey.krcg.org/dist
+        run: rsync -rlptq --delete-after -e ssh plugin/ lpanhaleux@krcg.org:projects/lackey.krcg.org/dist
