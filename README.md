@@ -27,8 +27,11 @@ Then call `make update` to install the Python requirements. You're ready.
 
 ### Prepare the plugin update
 
+- Make sure the cards images are on `https://static.krcg.org`.
+  See the [krcg-static repository](https://github.com/lionel-panhaleux/krcg-static) on how to proceed with this operation if you need to do it first.
 - To update the cards list: `make cards`
 - To generate the plugin list and version files: `make list`
+- Update `CHANGELOG.md` file
 - Commit and push your results
 - Make sure [the tests pass](https://github.com/lionel-panhaleux/vtes-lackeyccg-plugin/actions)
 - [Tag it](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
