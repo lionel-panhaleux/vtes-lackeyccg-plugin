@@ -5,8 +5,8 @@ plugins/vtes/sets/setimages/general/cardback.jpg	https://lackey.krcg.org/cardbac
 plugins/vtes/formats.txt	https://lackey.krcg.org/formats.txt	146708
 plugins/vtes/plugininfo.txt	https://lackey.krcg.org/plugininfo.txt	403842
 plugins/vtes/pluginpreferences.txt	https://lackey.krcg.org/pluginpreferences.txt	0
-plugins/vtes/spawned.png	https://lackey.krcg.org/spawned.png	285316
-plugins/vtes/sets/setimages/general/spawned.png	https://lackey.krcg.org/spawned.png	285316
+plugins/vtes/spawned.png	https://lackey.krcg.org/spawned.png	171299
+plugins/vtes/sets/setimages/general/spawned.png	https://lackey.krcg.org/spawned.png	171299
 plugins/vtes/uninstall.txt	https://lackey.krcg.org/uninstall.txt	19462
 plugins/vtes/version.txt	https://lackey.krcg.org/version.txt	24178
 plugins/vtes/saved/start.txt	https://lackey.krcg.org/saved/start.txt	68511
