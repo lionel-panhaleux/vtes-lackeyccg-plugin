@@ -8,6 +8,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Setup SSH key
-        run: echo "${{ secrets.KRCG_DEPLOY_KEY }}" > /home/runner/.ssh/krcg_deploy
+        run: |
+          mkdir /home/runner/.ssh
+          echo "${{ secrets.KRCG_DEPLOY_KEY }}" > /home/runner/.ssh/krcg_deploy
       - name: Deploy files to server
         run: rsync -rlptq --delete-after -e ssh -l krcg_deploy -i /home/runner/.ssh/krcg_deploy plugin/ krcg.org:projects/lackey.krcg.org/dist
