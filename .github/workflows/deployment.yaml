@@ -8,8 +8,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Setup SSH key
-        uses: webfactory/ssh-agent@v0.7.0
-        with:
-          ssh-private-key: ${{ secrets.KRCG_DEPLOY_KEY }}
+        run: echo "${{ secrets.KRCG_DEPLOY_KEY }}" > /home/runner/.ssh/krcg_deploy
       - name: Deploy files to server
-        run: rsync -rlptq --delete-after -e ssh -l krcg_deploy plugin/ krcg.org:projects/lackey.krcg.org/dist
+        run: rsync -rlptq --delete-after -e ssh -l krcg_deploy -i /home/runner/.ssh/krcg_deploy plugin/ krcg.org:projects/lackey.krcg.org/dist
