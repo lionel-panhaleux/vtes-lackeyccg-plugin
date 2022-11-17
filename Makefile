@@ -1,6 +1,7 @@
 .PHONY: update version cards list clean build check release deploy local
 
-SERVER_SSH ?= krcg_deploy@krcg.org:projects/lackey.krcg.org/dist
+SERVER_SSH ?= krcg.org:projects/lackey.krcg.org/dist
+SSH_LOGIN ?= krcg_deploy
 SSH_KEY_FILE ?= ~/.ssh/krcg_deploy
 SERVER_HTTP ?= https://lackey.krcg.org
 VERSION ?= $(shell date -u +"%F")
@@ -42,7 +43,7 @@ release: version cards list check build
 
 # manual deploy from local (ssh access to server required)
 deploy: check
-	rsync -rlptq --delete-after -e ssh -i ${SSH_KEY_FILE} plugin/ ${SERVER_SSH}
+	rsync -rlptq --delete-after -e ssh -l ${SSH_LOGIN} -i ${SSH_KEY_FILE} plugin/ ${SERVER_SSH}
 
 # local deploy to the Lackey app (for testing purposes)
 local: build
