@@ -1,10 +1,12 @@
 vtes	11-16-22
 plugins/vtes/bot.jpg	https://lackey.krcg.org/bot.jpg	80581
 plugins/vtes/cardback.jpg	https://lackey.krcg.org/cardback.jpg	396960
+plugins/vtes/sets/setimages/general/cardback.jpg	https://lackey.krcg.org/cardback.jpg	396960
 plugins/vtes/formats.txt	https://lackey.krcg.org/formats.txt	146708
 plugins/vtes/plugininfo.txt	https://lackey.krcg.org/plugininfo.txt	403842
 plugins/vtes/pluginpreferences.txt	https://lackey.krcg.org/pluginpreferences.txt	0
-plugins/vtes/spawned.png	https://lackey.krcg.org/spawned.png	171299
+plugins/vtes/spawned.png	https://lackey.krcg.org/spawned.png	285316
+plugins/vtes/sets/setimages/general/spawned.png	https://lackey.krcg.org/spawned.png	285316
 plugins/vtes/uninstall.txt	https://lackey.krcg.org/uninstall.txt	19462
 plugins/vtes/version.txt	https://lackey.krcg.org/version.txt	24178
 plugins/vtes/saved/start.txt	https://lackey.krcg.org/saved/start.txt	68511
@@ -323,235 +325,232 @@ plugins/vtes/sets/princeofhell.txt	https://lackey.krcg.org/sets/princeofhell.txt
 plugins/vtes/sets/ragnarokthefinalbattle.txt	https://lackey.krcg.org/sets/ragnarokthefinalbattle.txt	895650
 plugins/vtes/sets/redsign.txt	https://lackey.krcg.org/sets/redsign.txt	1266879
 plugins/vtes/sets/tokens.txt	https://lackey.krcg.org/sets/tokens.txt	473486
+plugins/vtes/sets/setimages/general/agonisingfury.jpg	https://lackey.krcg.org/sets/setimages/general/agonisingfury.jpg	337831
+plugins/vtes/sets/setimages/general/alanmeroni.jpg	https://lackey.krcg.org/sets/setimages/general/alanmeroni.jpg	342557
+plugins/vtes/sets/setimages/general/allhighthe_storyline.jpg	https://lackey.krcg.org/sets/setimages/general/allhighthe_storyline.jpg	331189
+plugins/vtes/sets/setimages/general/alterself.jpg	https://lackey.krcg.org/sets/setimages/general/alterself.jpg	307791
+plugins/vtes/sets/setimages/general/amuletoftheancients.jpg	https://lackey.krcg.org/sets/setimages/general/amuletoftheancients.jpg	305242
+plugins/vtes/sets/setimages/general/anarchcounter.jpg	https://lackey.krcg.org/sets/setimages/general/anarchcounter.jpg	326214
+plugins/vtes/sets/setimages/general/andrewstuart_storyline.jpg	https://lackey.krcg.org/sets/setimages/general/andrewstuart_storyline.jpg	324142
+plugins/vtes/sets/setimages/general/angelorossi.jpg	https://lackey.krcg.org/sets/setimages/general/angelorossi.jpg	299917
+plugins/vtes/sets/setimages/general/ankhsensutekadv_storyline.jpg	https://lackey.krcg.org/sets/setimages/general/ankhsensutekadv_storyline.jpg	360086
+plugins/vtes/sets/setimages/general/aurelianarchambeau.jpg	https://lackey.krcg.org/sets/setimages/general/aurelianarchambeau.jpg	348804
+plugins/vtes/sets/setimages/general/babayagatheironhag_storyline.jpg	https://lackey.krcg.org/sets/setimages/general/babayagatheironhag_storyline.jpg	317283
+plugins/vtes/sets/setimages/general/balefulbumsrush.jpg	https://lackey.krcg.org/sets/setimages/general/balefulbumsrush.jpg	323883
+plugins/vtes/sets/setimages/general/bindingoath.jpg	https://lackey.krcg.org/sets/setimages/general/bindingoath.jpg	345508
+plugins/vtes/sets/setimages/general/blackhandcounter.jpg	https://lackey.krcg.org/sets/setimages/general/blackhandcounter.jpg	264308
+plugins/vtes/sets/setimages/general/brunhildeadv_storyline.jpg	https://lackey.krcg.org/sets/setimages/general/brunhildeadv_storyline.jpg	326674
+plugins/vtes/sets/setimages/general/budacastle.jpg	https://lackey.krcg.org/sets/setimages/general/budacastle.jpg	338860
+plugins/vtes/sets/setimages/general/bulscu_storyline.jpg	https://lackey.krcg.org/sets/setimages/general/bulscu_storyline.jpg	336993
+plugins/vtes/sets/setimages/general/caern.jpg	https://lackey.krcg.org/sets/setimages/general/caern.jpg	284441
+plugins/vtes/sets/setimages/general/callofthenephandi.jpg	https://lackey.krcg.org/sets/setimages/general/callofthenephandi.jpg	333989
+plugins/vtes/sets/setimages/general/capuchinthe_storyline.jpg	https://lackey.krcg.org/sets/setimages/general/capuchinthe_storyline.jpg	313971
+plugins/vtes/sets/setimages/general/cardbackcrypt.jpg	https://lackey.krcg.org/sets/setimages/general/cardbackcrypt.jpg	373442
+plugins/vtes/sets/setimages/general/cardbackcultist.jpg	https://lackey.krcg.org/sets/setimages/general/cardbackcultist.jpg	304843
+plugins/vtes/sets/setimages/general/cardbackcultistcrypt.jpg	https://lackey.krcg.org/sets/setimages/general/cardbackcultistcrypt.jpg	330163
+plugins/vtes/sets/setimages/general/cardbacknergal.jpg	https://lackey.krcg.org/sets/setimages/general/cardbacknergal.jpg	331450
+plugins/vtes/sets/setimages/general/cardbacknergalcrypt.jpg	https://lackey.krcg.org/sets/setimages/general/cardbacknergalcrypt.jpg	318675
+plugins/vtes/sets/setimages/general/cardbacktoken.jpg	https://lackey.krcg.org/sets/setimages/general/cardbacktoken.jpg	329594
+plugins/vtes/sets/setimages/general/carlagrimsson.jpg	https://lackey.krcg.org/sets/setimages/general/carlagrimsson.jpg	332877
+plugins/vtes/sets/setimages/general/cecilialyons.jpg	https://lackey.krcg.org/sets/setimages/general/cecilialyons.jpg	344467
+plugins/vtes/sets/setimages/general/colocation.jpg	https://lackey.krcg.org/sets/setimages/general/colocation.jpg	356432
+plugins/vtes/sets/setimages/general/corpsecray.jpg	https://lackey.krcg.org/sets/setimages/general/corpsecray.jpg	304284
+plugins/vtes/sets/setimages/general/corruptdetective.jpg	https://lackey.krcg.org/sets/setimages/general/corruptdetective.jpg	313197
+plugins/vtes/sets/setimages/general/corruptioncounter.jpg	https://lackey.krcg.org/sets/setimages/general/corruptioncounter.jpg	332837
+plugins/vtes/sets/setimages/general/countermagick.jpg	https://lackey.krcg.org/sets/setimages/general/countermagick.jpg	336182
+plugins/vtes/sets/setimages/general/craigjohnston.jpg	https://lackey.krcg.org/sets/setimages/general/craigjohnston.jpg	316479
+plugins/vtes/sets/setimages/general/cultists44magnum.jpg	https://lackey.krcg.org/sets/setimages/general/cultists44magnum.jpg	325625
+plugins/vtes/sets/setimages/general/cultistsaireofelation.jpg	https://lackey.krcg.org/sets/setimages/general/cultistsaireofelation.jpg	333744
+plugins/vtes/sets/setimages/general/cultistsarmsdealer.jpg	https://lackey.krcg.org/sets/setimages/general/cultistsarmsdealer.jpg	305252
+plugins/vtes/sets/setimages/general/cultistsassaultrifle.jpg	https://lackey.krcg.org/sets/setimages/general/cultistsassaultrifle.jpg	289358
+plugins/vtes/sets/setimages/general/cultistsatonement.jpg	https://lackey.krcg.org/sets/setimages/general/cultistsatonement.jpg	335141
+plugins/vtes/sets/setimages/general/cultistsawe.jpg	https://lackey.krcg.org/sets/setimages/general/cultistsawe.jpg	382220
+plugins/vtes/sets/setimages/general/cultistsbloodfeast.jpg	https://lackey.krcg.org/sets/setimages/general/cultistsbloodfeast.jpg	328863
+plugins/vtes/sets/setimages/general/cultistsbomb.jpg	https://lackey.krcg.org/sets/setimages/general/cultistsbomb.jpg	341516
+plugins/vtes/sets/setimages/general/cultistscombatshotgun.jpg	https://lackey.krcg.org/sets/setimages/general/cultistscombatshotgun.jpg	278419
+plugins/vtes/sets/setimages/general/cultistscreationrites.jpg	https://lackey.krcg.org/sets/setimages/general/cultistscreationrites.jpg	346599
+plugins/vtes/sets/setimages/general/cultistsenchantkindred.jpg	https://lackey.krcg.org/sets/setimages/general/cultistsenchantkindred.jpg	337982
+plugins/vtes/sets/setimages/general/cultistsenhancedsenses.jpg	https://lackey.krcg.org/sets/setimages/general/cultistsenhancedsenses.jpg	347230
+plugins/vtes/sets/setimages/general/cultistsentrancement.jpg	https://lackey.krcg.org/sets/setimages/general/cultistsentrancement.jpg	303274
+plugins/vtes/sets/setimages/general/cultistsesgrima.jpg	https://lackey.krcg.org/sets/setimages/general/cultistsesgrima.jpg	337378
+plugins/vtes/sets/setimages/general/cultistsflamethrower.jpg	https://lackey.krcg.org/sets/setimages/general/cultistsflamethrower.jpg	307656
+plugins/vtes/sets/setimages/general/cultistsguardianangel.jpg	https://lackey.krcg.org/sets/setimages/general/cultistsguardianangel.jpg	313993
+plugins/vtes/sets/setimages/general/cultistsmindrape.jpg	https://lackey.krcg.org/sets/setimages/general/cultistsmindrape.jpg	325047
+plugins/vtes/sets/setimages/general/cultistsprecognition.jpg	https://lackey.krcg.org/sets/setimages/general/cultistsprecognition.jpg	260327
+plugins/vtes/sets/setimages/general/cultistsprotractedinvestment.jpg	https://lackey.krcg.org/sets/setimages/general/cultistsprotractedinvestment.jpg	337444
+plugins/vtes/sets/setimages/general/cultistsrevelations.jpg	https://lackey.krcg.org/sets/setimages/general/cultistsrevelations.jpg	323429
+plugins/vtes/sets/setimages/general/cultistssurvivalist.jpg	https://lackey.krcg.org/sets/setimages/general/cultistssurvivalist.jpg	266156
+plugins/vtes/sets/setimages/general/cultiststributetothemaster.jpg	https://lackey.krcg.org/sets/setimages/general/cultiststributetothemaster.jpg	311038
+plugins/vtes/sets/setimages/general/demoniccondemnationbetrayed.jpg	https://lackey.krcg.org/sets/setimages/general/demoniccondemnationbetrayed.jpg	345890
+plugins/vtes/sets/setimages/general/demoniccondemnationdoomed.jpg	https://lackey.krcg.org/sets/setimages/general/demoniccondemnationdoomed.jpg	385815
+plugins/vtes/sets/setimages/general/demoniccondemnationlanguid.jpg	https://lackey.krcg.org/sets/setimages/general/demoniccondemnationlanguid.jpg	344294
+plugins/vtes/sets/setimages/general/demoniccondemnationmute.jpg	https://lackey.krcg.org/sets/setimages/general/demoniccondemnationmute.jpg	324323
+plugins/vtes/sets/setimages/general/demonicconfusionoftheeye.jpg	https://lackey.krcg.org/sets/setimages/general/demonicconfusionoftheeye.jpg	288958
+plugins/vtes/sets/setimages/general/demonicfreakdrive.jpg	https://lackey.krcg.org/sets/setimages/general/demonicfreakdrive.jpg	321322
+plugins/vtes/sets/setimages/general/demonicheraldoftopheth.jpg	https://lackey.krcg.org/sets/setimages/general/demonicheraldoftopheth.jpg	262290
+plugins/vtes/sets/setimages/general/demonicminiontap.jpg	https://lackey.krcg.org/sets/setimages/general/demonicminiontap.jpg	343422
+plugins/vtes/sets/setimages/general/demonicpulseofthecanaille.jpg	https://lackey.krcg.org/sets/setimages/general/demonicpulseofthecanaille.jpg	323165
+plugins/vtes/sets/setimages/general/demonictrap.jpg	https://lackey.krcg.org/sets/setimages/general/demonictrap.jpg	293865
+plugins/vtes/sets/setimages/general/distorttime.jpg	https://lackey.krcg.org/sets/setimages/general/distorttime.jpg	330305
+plugins/vtes/sets/setimages/general/domainauckland.jpg	https://lackey.krcg.org/sets/setimages/general/domainauckland.jpg	340910
+plugins/vtes/sets/setimages/general/domainbrisbane.jpg	https://lackey.krcg.org/sets/setimages/general/domainbrisbane.jpg	357300
+plugins/vtes/sets/setimages/general/domaincanberra.jpg	https://lackey.krcg.org/sets/setimages/general/domaincanberra.jpg	290887
+plugins/vtes/sets/setimages/general/domainmelbourne.jpg	https://lackey.krcg.org/sets/setimages/general/domainmelbourne.jpg	324917
+plugins/vtes/sets/setimages/general/domainsydney.jpg	https://lackey.krcg.org/sets/setimages/general/domainsydney.jpg	329627
+plugins/vtes/sets/setimages/general/domaintownsville.jpg	https://lackey.krcg.org/sets/setimages/general/domaintownsville.jpg	291853
+plugins/vtes/sets/setimages/general/domainwellington.jpg	https://lackey.krcg.org/sets/setimages/general/domainwellington.jpg	326638
+plugins/vtes/sets/setimages/general/draconthe_storyline.jpg	https://lackey.krcg.org/sets/setimages/general/draconthe_storyline.jpg	318708
+plugins/vtes/sets/setimages/general/dualityadv_storyline.jpg	https://lackey.krcg.org/sets/setimages/general/dualityadv_storyline.jpg	328655
+plugins/vtes/sets/setimages/general/edge.png	https://lackey.krcg.org/sets/setimages/general/edge.png	-13292
+plugins/vtes/sets/setimages/general/edge2.png	https://lackey.krcg.org/sets/setimages/general/edge2.png	32493
+plugins/vtes/sets/setimages/general/edgecard.jpg	https://lackey.krcg.org/sets/setimages/general/edgecard.jpg	7964
+plugins/vtes/sets/setimages/general/edwardgrey.jpg	https://lackey.krcg.org/sets/setimages/general/edwardgrey.jpg	310231
+plugins/vtes/sets/setimages/general/egyptiandagger.jpg	https://lackey.krcg.org/sets/setimages/general/egyptiandagger.jpg	17113
+plugins/vtes/sets/setimages/general/emmadodd.jpg	https://lackey.krcg.org/sets/setimages/general/emmadodd.jpg	321830
+plugins/vtes/sets/setimages/general/estobaldumas.jpg	https://lackey.krcg.org/sets/setimages/general/estobaldumas.jpg	313160
+plugins/vtes/sets/setimages/general/exeterchantrylondon.jpg	https://lackey.krcg.org/sets/setimages/general/exeterchantrylondon.jpg	280909
+plugins/vtes/sets/setimages/general/exlibrisnecro.jpg	https://lackey.krcg.org/sets/setimages/general/exlibrisnecro.jpg	341624
+plugins/vtes/sets/setimages/general/fangjumper.jpg	https://lackey.krcg.org/sets/setimages/general/fangjumper.jpg	342543
+plugins/vtes/sets/setimages/general/floatingonethe.jpg	https://lackey.krcg.org/sets/setimages/general/floatingonethe.jpg	318065
+plugins/vtes/sets/setimages/general/formofdemoniccorruption.jpg	https://lackey.krcg.org/sets/setimages/general/formofdemoniccorruption.jpg	321950
+plugins/vtes/sets/setimages/general/frateranson.jpg	https://lackey.krcg.org/sets/setimages/general/frateranson.jpg	316778
+plugins/vtes/sets/setimages/general/garmrhoundofhel.jpg	https://lackey.krcg.org/sets/setimages/general/garmrhoundofhel.jpg	342482
+plugins/vtes/sets/setimages/general/gerihungrywolf.jpg	https://lackey.krcg.org/sets/setimages/general/gerihungrywolf.jpg	321119
+plugins/vtes/sets/setimages/general/gjallahornhornofheimdall.jpg	https://lackey.krcg.org/sets/setimages/general/gjallahornhornofheimdall.jpg	365376
+plugins/vtes/sets/setimages/general/glasshousemountains.jpg	https://lackey.krcg.org/sets/setimages/general/glasshousemountains.jpg	348493
+plugins/vtes/sets/setimages/general/golgolfangsfirst.jpg	https://lackey.krcg.org/sets/setimages/general/golgolfangsfirst.jpg	307437
+plugins/vtes/sets/setimages/general/greatercatatonicfear.jpg	https://lackey.krcg.org/sets/setimages/general/greatercatatonicfear.jpg	274314
+plugins/vtes/sets/setimages/general/greaterfacelessnight.jpg	https://lackey.krcg.org/sets/setimages/general/greaterfacelessnight.jpg	335814
+plugins/vtes/sets/setimages/general/greaterfearofthevoidbelow.jpg	https://lackey.krcg.org/sets/setimages/general/greaterfearofthevoidbelow.jpg	308329
+plugins/vtes/sets/setimages/general/greaterhavenuncovered.jpg	https://lackey.krcg.org/sets/setimages/general/greaterhavenuncovered.jpg	329989
+plugins/vtes/sets/setimages/general/greaterrotschreck.jpg	https://lackey.krcg.org/sets/setimages/general/greaterrotschreck.jpg	328912
+plugins/vtes/sets/setimages/general/greatertelepathiccounter.jpg	https://lackey.krcg.org/sets/setimages/general/greatertelepathiccounter.jpg	326338
+plugins/vtes/sets/setimages/general/greatertelepathicmisdirection.jpg	https://lackey.krcg.org/sets/setimages/general/greatertelepathicmisdirection.jpg	328995
+plugins/vtes/sets/setimages/general/greaterundeadpersistence.jpg	https://lackey.krcg.org/sets/setimages/general/greaterundeadpersistence.jpg	280314
+plugins/vtes/sets/setimages/general/greaterwakewitheveningsfreshness.jpg	https://lackey.krcg.org/sets/setimages/general/greaterwakewitheveningsfreshness.jpg	326882
+plugins/vtes/sets/setimages/general/gungnirodin'sspear.jpg	https://lackey.krcg.org/sets/setimages/general/gungnirodin'sspear.jpg	352146
+plugins/vtes/sets/setimages/general/guntheroddeye.jpg	https://lackey.krcg.org/sets/setimages/general/guntheroddeye.jpg	321256
+plugins/vtes/sets/setimages/general/hatimoonchaser.jpg	https://lackey.krcg.org/sets/setimages/general/hatimoonchaser.jpg	344033
+plugins/vtes/sets/setimages/general/healself.jpg	https://lackey.krcg.org/sets/setimages/general/healself.jpg	316794
+plugins/vtes/sets/setimages/general/helmistressoftheunderworld.jpg	https://lackey.krcg.org/sets/setimages/general/helmistressoftheunderworld.jpg	328307
+plugins/vtes/sets/setimages/general/huginnraven.jpg	https://lackey.krcg.org/sets/setimages/general/huginnraven.jpg	327941
+plugins/vtes/sets/setimages/general/imbuedrules1.jpg	https://lackey.krcg.org/sets/setimages/general/imbuedrules1.jpg	175503
+plugins/vtes/sets/setimages/general/imbuedrules2.jpg	https://lackey.krcg.org/sets/setimages/general/imbuedrules2.jpg	186295
+plugins/vtes/sets/setimages/general/imbuedrules3.jpg	https://lackey.krcg.org/sets/setimages/general/imbuedrules3.jpg	171698
+plugins/vtes/sets/setimages/general/imbuedrules4.jpg	https://lackey.krcg.org/sets/setimages/general/imbuedrules4.jpg	204445
+plugins/vtes/sets/setimages/general/imbuedrules5.jpg	https://lackey.krcg.org/sets/setimages/general/imbuedrules5.jpg	201094
+plugins/vtes/sets/setimages/general/infernalconflagration.jpg	https://lackey.krcg.org/sets/setimages/general/infernalconflagration.jpg	342567
+plugins/vtes/sets/setimages/general/infernalcontagion.jpg	https://lackey.krcg.org/sets/setimages/general/infernalcontagion.jpg	327833
+plugins/vtes/sets/setimages/general/infernalecstasy.jpg	https://lackey.krcg.org/sets/setimages/general/infernalecstasy.jpg	305284
+plugins/vtes/sets/setimages/general/infernalperfectionist.jpg	https://lackey.krcg.org/sets/setimages/general/infernalperfectionist.jpg	342560
+plugins/vtes/sets/setimages/general/infernalpsychomachia.jpg	https://lackey.krcg.org/sets/setimages/general/infernalpsychomachia.jpg	320380
+plugins/vtes/sets/setimages/general/infernalregeneration.jpg	https://lackey.krcg.org/sets/setimages/general/infernalregeneration.jpg	341249
+plugins/vtes/sets/setimages/general/infernalruinsofcharizel.jpg	https://lackey.krcg.org/sets/setimages/general/infernalruinsofcharizel.jpg	345719
+plugins/vtes/sets/setimages/general/inferno.jpg	https://lackey.krcg.org/sets/setimages/general/inferno.jpg	342594
+plugins/vtes/sets/setimages/general/irvingsloan.jpg	https://lackey.krcg.org/sets/setimages/general/irvingsloan.jpg	335545
+plugins/vtes/sets/setimages/general/jensmith.jpg	https://lackey.krcg.org/sets/setimages/general/jensmith.jpg	334453
+plugins/vtes/sets/setimages/general/johannkurtzweil.jpg	https://lackey.krcg.org/sets/setimages/general/johannkurtzweil.jpg	338363
+plugins/vtes/sets/setimages/general/jormungandrmidgardserpent.jpg	https://lackey.krcg.org/sets/setimages/general/jormungandrmidgardserpent.jpg	326970
+plugins/vtes/sets/setimages/general/josiahlamb.jpg	https://lackey.krcg.org/sets/setimages/general/josiahlamb.jpg	329329
+plugins/vtes/sets/setimages/general/ke.jpg	https://lackey.krcg.org/sets/setimages/general/ke.jpg	344759
+plugins/vtes/sets/setimages/general/kinfolkcontact.jpg	https://lackey.krcg.org/sets/setimages/general/kinfolkcontact.jpg	337603
+plugins/vtes/sets/setimages/general/kingofthebeasts.jpg	https://lackey.krcg.org/sets/setimages/general/kingofthebeasts.jpg	318290
+plugins/vtes/sets/setimages/general/kraken.jpg	https://lackey.krcg.org/sets/setimages/general/kraken.jpg	312967
+plugins/vtes/sets/setimages/general/kristofftheblack.jpg	https://lackey.krcg.org/sets/setimages/general/kristofftheblack.jpg	324675
+plugins/vtes/sets/setimages/general/laevateinnswordoffreya.jpg	https://lackey.krcg.org/sets/setimages/general/laevateinnswordoffreya.jpg	342395
+plugins/vtes/sets/setimages/general/liaisonmarker.jpg	https://lackey.krcg.org/sets/setimages/general/liaisonmarker.jpg	317783
+plugins/vtes/sets/setimages/general/locateweakness.jpg	https://lackey.krcg.org/sets/setimages/general/locateweakness.jpg	349807
+plugins/vtes/sets/setimages/general/lokitrickstergod.jpg	https://lackey.krcg.org/sets/setimages/general/lokitrickstergod.jpg	313837
+plugins/vtes/sets/setimages/general/lorddom.jpg	https://lackey.krcg.org/sets/setimages/general/lorddom.jpg	327490
+plugins/vtes/sets/setimages/general/lunasarmour.jpg	https://lackey.krcg.org/sets/setimages/general/lunasarmour.jpg	318902
+plugins/vtes/sets/setimages/general/lunasblessing.jpg	https://lackey.krcg.org/sets/setimages/general/lunasblessing.jpg	321093
+plugins/vtes/sets/setimages/general/manafromheaven.jpg	https://lackey.krcg.org/sets/setimages/general/manafromheaven.jpg	314521
+plugins/vtes/sets/setimages/general/marcusdeallegresse.jpg	https://lackey.krcg.org/sets/setimages/general/marcusdeallegresse.jpg	332323
+plugins/vtes/sets/setimages/general/masterofcorrespondence.jpg	https://lackey.krcg.org/sets/setimages/general/masterofcorrespondence.jpg	301748
+plugins/vtes/sets/setimages/general/masterofentropy.jpg	https://lackey.krcg.org/sets/setimages/general/masterofentropy.jpg	306170
+plugins/vtes/sets/setimages/general/masterofforces.jpg	https://lackey.krcg.org/sets/setimages/general/masterofforces.jpg	323811
+plugins/vtes/sets/setimages/general/masteroflife.jpg	https://lackey.krcg.org/sets/setimages/general/masteroflife.jpg	293137
+plugins/vtes/sets/setimages/general/masterofmatter.jpg	https://lackey.krcg.org/sets/setimages/general/masterofmatter.jpg	315239
+plugins/vtes/sets/setimages/general/masterofmind.jpg	https://lackey.krcg.org/sets/setimages/general/masterofmind.jpg	277881
+plugins/vtes/sets/setimages/general/masterofprime.jpg	https://lackey.krcg.org/sets/setimages/general/masterofprime.jpg	287427
+plugins/vtes/sets/setimages/general/masterofspirit.jpg	https://lackey.krcg.org/sets/setimages/general/masterofspirit.jpg	327078
+plugins/vtes/sets/setimages/general/masteroftime.jpg	https://lackey.krcg.org/sets/setimages/general/masteroftime.jpg	288770
+plugins/vtes/sets/setimages/general/melissachong.jpg	https://lackey.krcg.org/sets/setimages/general/melissachong.jpg	323161
+plugins/vtes/sets/setimages/general/mithras_storyline.jpg	https://lackey.krcg.org/sets/setimages/general/mithras_storyline.jpg	305326
+plugins/vtes/sets/setimages/general/mjolnirthorshammer.jpg	https://lackey.krcg.org/sets/setimages/general/mjolnirthorshammer.jpg	365459
+plugins/vtes/sets/setimages/general/montano_storyline.jpg	https://lackey.krcg.org/sets/setimages/general/montano_storyline.jpg	318196
+plugins/vtes/sets/setimages/general/motherstouch.jpg	https://lackey.krcg.org/sets/setimages/general/motherstouch.jpg	330434
+plugins/vtes/sets/setimages/general/motivatedbygehenna.jpg	https://lackey.krcg.org/sets/setimages/general/motivatedbygehenna.jpg	322464
+plugins/vtes/sets/setimages/general/motivatedbyjyhad.jpg	https://lackey.krcg.org/sets/setimages/general/motivatedbyjyhad.jpg	354311
+plugins/vtes/sets/setimages/general/motivatedbyknowledge.jpg	https://lackey.krcg.org/sets/setimages/general/motivatedbyknowledge.jpg	333968
+plugins/vtes/sets/setimages/general/motivatedbysecrecy.jpg	https://lackey.krcg.org/sets/setimages/general/motivatedbysecrecy.jpg	346610
+plugins/vtes/sets/setimages/general/muninnraven.jpg	https://lackey.krcg.org/sets/setimages/general/muninnraven.jpg	333055
+plugins/vtes/sets/setimages/general/natachadimitrivaradocara_storyline.jpg	https://lackey.krcg.org/sets/setimages/general/natachadimitrivaradocara_storyline.jpg	358926
+plugins/vtes/sets/setimages/general/nathanielgalpin.jpg	https://lackey.krcg.org/sets/setimages/general/nathanielgalpin.jpg	363627
+plugins/vtes/sets/setimages/general/nefertitiadv_storyline.jpg	https://lackey.krcg.org/sets/setimages/general/nefertitiadv_storyline.jpg	318408
+plugins/vtes/sets/setimages/general/nergalcallsthegreatbeast.jpg	https://lackey.krcg.org/sets/setimages/general/nergalcallsthegreatbeast.jpg	336312
+plugins/vtes/sets/setimages/general/nergalignoresthesearingflames.jpg	https://lackey.krcg.org/sets/setimages/general/nergalignoresthesearingflames.jpg	326230
+plugins/vtes/sets/setimages/general/nergalprinceofhell.jpg	https://lackey.krcg.org/sets/setimages/general/nergalprinceofhell.jpg	304979
+plugins/vtes/sets/setimages/general/nergalsblooddoll.jpg	https://lackey.krcg.org/sets/setimages/general/nergalsblooddoll.jpg	362068
+plugins/vtes/sets/setimages/general/nergalsconcordance.jpg	https://lackey.krcg.org/sets/setimages/general/nergalsconcordance.jpg	307360
+plugins/vtes/sets/setimages/general/nergalsfragmentofthebookofnod.jpg	https://lackey.krcg.org/sets/setimages/general/nergalsfragmentofthebookofnod.jpg	309149
+plugins/vtes/sets/setimages/general/nergalsgiantsblood.jpg	https://lackey.krcg.org/sets/setimages/general/nergalsgiantsblood.jpg	314325
+plugins/vtes/sets/setimages/general/nidhoggthehungryworm.jpg	https://lackey.krcg.org/sets/setimages/general/nidhoggthehungryworm.jpg	330712
+plugins/vtes/sets/setimages/general/operationantigencountdown.jpg	https://lackey.krcg.org/sets/setimages/general/operationantigencountdown.jpg	19418
+plugins/vtes/sets/setimages/general/parliamenthousecanberra.jpg	https://lackey.krcg.org/sets/setimages/general/parliamenthousecanberra.jpg	383728
+plugins/vtes/sets/setimages/general/percival_storyline.jpg	https://lackey.krcg.org/sets/setimages/general/percival_storyline.jpg	346482
+plugins/vtes/sets/setimages/general/philippedemarseillesadv_storyline.jpg	https://lackey.krcg.org/sets/setimages/general/philippedemarseillesadv_storyline.jpg	300458
+plugins/vtes/sets/setimages/general/phrygiancap.jpg	https://lackey.krcg.org/sets/setimages/general/phrygiancap.jpg	57091
+plugins/vtes/sets/setimages/general/pierredecalice.jpg	https://lackey.krcg.org/sets/setimages/general/pierredecalice.jpg	328820
+plugins/vtes/sets/setimages/general/probethoughts.jpg	https://lackey.krcg.org/sets/setimages/general/probethoughts.jpg	315390
+plugins/vtes/sets/setimages/general/prophail.jpg	https://lackey.krcg.org/sets/setimages/general/prophail.jpg	316301
+plugins/vtes/sets/setimages/general/quintessencecounter.jpg	https://lackey.krcg.org/sets/setimages/general/quintessencecounter.jpg	348413
+plugins/vtes/sets/setimages/general/razorclaws.jpg	https://lackey.krcg.org/sets/setimages/general/razorclaws.jpg	326764
+plugins/vtes/sets/setimages/general/rebeccamitsotakai.jpg	https://lackey.krcg.org/sets/setimages/general/rebeccamitsotakai.jpg	331744
+plugins/vtes/sets/setimages/general/recklessabandonment.jpg	https://lackey.krcg.org/sets/setimages/general/recklessabandonment.jpg	326169
+plugins/vtes/sets/setimages/general/redsignthe.jpg	https://lackey.krcg.org/sets/setimages/general/redsignthe.jpg	317263
+plugins/vtes/sets/setimages/general/rogerdaly.jpg	https://lackey.krcg.org/sets/setimages/general/rogerdaly.jpg	304831
+plugins/vtes/sets/setimages/general/rubyring.jpg	https://lackey.krcg.org/sets/setimages/general/rubyring.jpg	10353
+plugins/vtes/sets/setimages/general/rutoradv_storyline.jpg	https://lackey.krcg.org/sets/setimages/general/rutoradv_storyline.jpg	323167
+plugins/vtes/sets/setimages/general/rutorsinfernalhand.jpg	https://lackey.krcg.org/sets/setimages/general/rutorsinfernalhand.jpg	279827
+plugins/vtes/sets/setimages/general/saintthe.jpg	https://lackey.krcg.org/sets/setimages/general/saintthe.jpg	303858
+plugins/vtes/sets/setimages/general/scarthroatleechkiller.jpg	https://lackey.krcg.org/sets/setimages/general/scarthroatleechkiller.jpg	311389
+plugins/vtes/sets/setimages/general/sealofmithras.jpg	https://lackey.krcg.org/sets/setimages/general/sealofmithras.jpg	4480
+plugins/vtes/sets/setimages/general/seating1.jpg	https://lackey.krcg.org/sets/setimages/general/seating1.jpg	341211
+plugins/vtes/sets/setimages/general/seating2.jpg	https://lackey.krcg.org/sets/setimages/general/seating2.jpg	337438
+plugins/vtes/sets/setimages/general/seating3.jpg	https://lackey.krcg.org/sets/setimages/general/seating3.jpg	304395
+plugins/vtes/sets/setimages/general/seating4.jpg	https://lackey.krcg.org/sets/setimages/general/seating4.jpg	309044
+plugins/vtes/sets/setimages/general/seating5.jpg	https://lackey.krcg.org/sets/setimages/general/seating5.jpg	349279
+plugins/vtes/sets/setimages/general/senseconnection.jpg	https://lackey.krcg.org/sets/setimages/general/senseconnection.jpg	324105
+plugins/vtes/sets/setimages/general/sensetheinfernalsin.jpg	https://lackey.krcg.org/sets/setimages/general/sensetheinfernalsin.jpg	318678
+plugins/vtes/sets/setimages/general/sensewyrm.jpg	https://lackey.krcg.org/sets/setimages/general/sensewyrm.jpg	333464
+plugins/vtes/sets/setimages/general/shadethe.jpg	https://lackey.krcg.org/sets/setimages/general/shadethe.jpg	327068
+plugins/vtes/sets/setimages/general/skinoftheinfernaladder.jpg	https://lackey.krcg.org/sets/setimages/general/skinoftheinfernaladder.jpg	295784
+plugins/vtes/sets/setimages/general/skollsunchaser.jpg	https://lackey.krcg.org/sets/setimages/general/skollsunchaser.jpg	341672
+plugins/vtes/sets/setimages/general/sleipnirgreatestofsteeds.jpg	https://lackey.krcg.org/sets/setimages/general/sleipnirgreatestofsteeds.jpg	316167
+plugins/vtes/sets/setimages/general/sonofmoonlight.jpg	https://lackey.krcg.org/sets/setimages/general/sonofmoonlight.jpg	324866
+plugins/vtes/sets/setimages/general/sophiachevallier.jpg	https://lackey.krcg.org/sets/setimages/general/sophiachevallier.jpg	316677
+plugins/vtes/sets/setimages/general/steppingsideways.jpg	https://lackey.krcg.org/sets/setimages/general/steppingsideways.jpg	328852
+plugins/vtes/sets/setimages/general/stepsideways.jpg	https://lackey.krcg.org/sets/setimages/general/stepsideways.jpg	353411
+plugins/vtes/sets/setimages/general/strawintogold.jpg	https://lackey.krcg.org/sets/setimages/general/strawintogold.jpg	324639
+plugins/vtes/sets/setimages/general/stuarttechnobabblejaques.jpg	https://lackey.krcg.org/sets/setimages/general/stuarttechnobabblejaques.jpg	348016
+plugins/vtes/sets/setimages/general/sutrwarriorgiant.jpg	https://lackey.krcg.org/sets/setimages/general/sutrwarriorgiant.jpg	353232
+plugins/vtes/sets/setimages/general/svalinnshieldofthesun.jpg	https://lackey.krcg.org/sets/setimages/general/svalinnshieldofthesun.jpg	369523
+plugins/vtes/sets/setimages/general/swallowedbythedemonicnight.jpg	https://lackey.krcg.org/sets/setimages/general/swallowedbythedemonicnight.jpg	323853
+plugins/vtes/sets/setimages/general/teotihuacan.jpg	https://lackey.krcg.org/sets/setimages/general/teotihuacan.jpg	297027
+plugins/vtes/sets/setimages/general/themistoclesadv_storyline.jpg	https://lackey.krcg.org/sets/setimages/general/themistoclesadv_storyline.jpg	327657
+plugins/vtes/sets/setimages/general/thralltotheblood.jpg	https://lackey.krcg.org/sets/setimages/general/thralltotheblood.jpg	295694
+plugins/vtes/sets/setimages/general/tonywedd.jpg	https://lackey.krcg.org/sets/setimages/general/tonywedd.jpg	333813
+plugins/vtes/sets/setimages/general/tremere_storyline.jpg	https://lackey.krcg.org/sets/setimages/general/tremere_storyline.jpg	332736
+plugins/vtes/sets/setimages/general/underworldenforcer.jpg	https://lackey.krcg.org/sets/setimages/general/underworldenforcer.jpg	279580
+plugins/vtes/sets/setimages/general/valkyrie_storyline.jpg	https://lackey.krcg.org/sets/setimages/general/valkyrie_storyline.jpg	342267
+plugins/vtes/sets/setimages/general/virustowyrm.jpg	https://lackey.krcg.org/sets/setimages/general/virustowyrm.jpg	317282
+plugins/vtes/sets/setimages/general/visageofcaine.jpg	https://lackey.krcg.org/sets/setimages/general/visageofcaine.jpg	356479
+plugins/vtes/sets/setimages/general/vladtepesdracula_storyline.jpg	https://lackey.krcg.org/sets/setimages/general/vladtepesdracula_storyline.jpg	364970
+plugins/vtes/sets/setimages/general/walkofinfernalflame.jpg	https://lackey.krcg.org/sets/setimages/general/walkofinfernalflame.jpg	307614
+plugins/vtes/sets/setimages/general/windycitycoffeecart.jpg	https://lackey.krcg.org/sets/setimages/general/windycitycoffeecart.jpg	289245
+plugins/vtes/sets/setimages/general/yellowsignthe.jpg	https://lackey.krcg.org/sets/setimages/general/yellowsignthe.jpg	340438
 fonts/Amaranth.ttf	https://lackey.krcg.org/fonts/Amaranth.ttf	571212
 fonts/Lato-Reg.ttf	https://lackey.krcg.org/fonts/Lato-Reg.ttf	1138266
-CardImageURLs:
-general/cardback.jpg	https://lackey.krcg.org/cardback.jpg
-general/spawned.jpg	https://lackey.krcg.org/spawned.jpg
-general/agonisingfury.jpg	https://lackey.krcg.org/sets/setimages/general/agonisingfury.jpg
-general/alanmeroni.jpg	https://lackey.krcg.org/sets/setimages/general/alanmeroni.jpg
-general/allhighthe_storyline.jpg	https://lackey.krcg.org/sets/setimages/general/allhighthe_storyline.jpg
-general/alterself.jpg	https://lackey.krcg.org/sets/setimages/general/alterself.jpg
-general/amuletoftheancients.jpg	https://lackey.krcg.org/sets/setimages/general/amuletoftheancients.jpg
-general/anarchcounter.jpg	https://lackey.krcg.org/sets/setimages/general/anarchcounter.jpg
-general/andrewstuart_storyline.jpg	https://lackey.krcg.org/sets/setimages/general/andrewstuart_storyline.jpg
-general/angelorossi.jpg	https://lackey.krcg.org/sets/setimages/general/angelorossi.jpg
-general/ankhsensutekadv_storyline.jpg	https://lackey.krcg.org/sets/setimages/general/ankhsensutekadv_storyline.jpg
-general/aurelianarchambeau.jpg	https://lackey.krcg.org/sets/setimages/general/aurelianarchambeau.jpg
-general/babayagatheironhag_storyline.jpg	https://lackey.krcg.org/sets/setimages/general/babayagatheironhag_storyline.jpg
-general/balefulbumsrush.jpg	https://lackey.krcg.org/sets/setimages/general/balefulbumsrush.jpg
-general/bindingoath.jpg	https://lackey.krcg.org/sets/setimages/general/bindingoath.jpg
-general/blackhandcounter.jpg	https://lackey.krcg.org/sets/setimages/general/blackhandcounter.jpg
-general/brunhildeadv_storyline.jpg	https://lackey.krcg.org/sets/setimages/general/brunhildeadv_storyline.jpg
-general/budacastle.jpg	https://lackey.krcg.org/sets/setimages/general/budacastle.jpg
-general/bulscu_storyline.jpg	https://lackey.krcg.org/sets/setimages/general/bulscu_storyline.jpg
-general/caern.jpg	https://lackey.krcg.org/sets/setimages/general/caern.jpg
-general/callofthenephandi.jpg	https://lackey.krcg.org/sets/setimages/general/callofthenephandi.jpg
-general/capuchinthe_storyline.jpg	https://lackey.krcg.org/sets/setimages/general/capuchinthe_storyline.jpg
-general/cardbackcrypt.jpg	https://lackey.krcg.org/sets/setimages/general/cardbackcrypt.jpg
-general/cardbackcultist.jpg	https://lackey.krcg.org/sets/setimages/general/cardbackcultist.jpg
-general/cardbackcultistcrypt.jpg	https://lackey.krcg.org/sets/setimages/general/cardbackcultistcrypt.jpg
-general/cardbacknergal.jpg	https://lackey.krcg.org/sets/setimages/general/cardbacknergal.jpg
-general/cardbacknergalcrypt.jpg	https://lackey.krcg.org/sets/setimages/general/cardbacknergalcrypt.jpg
-general/cardbacktoken.jpg	https://lackey.krcg.org/sets/setimages/general/cardbacktoken.jpg
-general/carlagrimsson.jpg	https://lackey.krcg.org/sets/setimages/general/carlagrimsson.jpg
-general/cecilialyons.jpg	https://lackey.krcg.org/sets/setimages/general/cecilialyons.jpg
-general/colocation.jpg	https://lackey.krcg.org/sets/setimages/general/colocation.jpg
-general/corpsecray.jpg	https://lackey.krcg.org/sets/setimages/general/corpsecray.jpg
-general/corruptdetective.jpg	https://lackey.krcg.org/sets/setimages/general/corruptdetective.jpg
-general/corruptioncounter.jpg	https://lackey.krcg.org/sets/setimages/general/corruptioncounter.jpg
-general/countermagick.jpg	https://lackey.krcg.org/sets/setimages/general/countermagick.jpg
-general/craigjohnston.jpg	https://lackey.krcg.org/sets/setimages/general/craigjohnston.jpg
-general/cultists44magnum.jpg	https://lackey.krcg.org/sets/setimages/general/cultists44magnum.jpg
-general/cultistsaireofelation.jpg	https://lackey.krcg.org/sets/setimages/general/cultistsaireofelation.jpg
-general/cultistsarmsdealer.jpg	https://lackey.krcg.org/sets/setimages/general/cultistsarmsdealer.jpg
-general/cultistsassaultrifle.jpg	https://lackey.krcg.org/sets/setimages/general/cultistsassaultrifle.jpg
-general/cultistsatonement.jpg	https://lackey.krcg.org/sets/setimages/general/cultistsatonement.jpg
-general/cultistsawe.jpg	https://lackey.krcg.org/sets/setimages/general/cultistsawe.jpg
-general/cultistsbloodfeast.jpg	https://lackey.krcg.org/sets/setimages/general/cultistsbloodfeast.jpg
-general/cultistsbomb.jpg	https://lackey.krcg.org/sets/setimages/general/cultistsbomb.jpg
-general/cultistscombatshotgun.jpg	https://lackey.krcg.org/sets/setimages/general/cultistscombatshotgun.jpg
-general/cultistscreationrites.jpg	https://lackey.krcg.org/sets/setimages/general/cultistscreationrites.jpg
-general/cultistsenchantkindred.jpg	https://lackey.krcg.org/sets/setimages/general/cultistsenchantkindred.jpg
-general/cultistsenhancedsenses.jpg	https://lackey.krcg.org/sets/setimages/general/cultistsenhancedsenses.jpg
-general/cultistsentrancement.jpg	https://lackey.krcg.org/sets/setimages/general/cultistsentrancement.jpg
-general/cultistsesgrima.jpg	https://lackey.krcg.org/sets/setimages/general/cultistsesgrima.jpg
-general/cultistsflamethrower.jpg	https://lackey.krcg.org/sets/setimages/general/cultistsflamethrower.jpg
-general/cultistsguardianangel.jpg	https://lackey.krcg.org/sets/setimages/general/cultistsguardianangel.jpg
-general/cultistsmindrape.jpg	https://lackey.krcg.org/sets/setimages/general/cultistsmindrape.jpg
-general/cultistsprecognition.jpg	https://lackey.krcg.org/sets/setimages/general/cultistsprecognition.jpg
-general/cultistsprotractedinvestment.jpg	https://lackey.krcg.org/sets/setimages/general/cultistsprotractedinvestment.jpg
-general/cultistsrevelations.jpg	https://lackey.krcg.org/sets/setimages/general/cultistsrevelations.jpg
-general/cultistssurvivalist.jpg	https://lackey.krcg.org/sets/setimages/general/cultistssurvivalist.jpg
-general/cultiststributetothemaster.jpg	https://lackey.krcg.org/sets/setimages/general/cultiststributetothemaster.jpg
-general/demoniccondemnationbetrayed.jpg	https://lackey.krcg.org/sets/setimages/general/demoniccondemnationbetrayed.jpg
-general/demoniccondemnationdoomed.jpg	https://lackey.krcg.org/sets/setimages/general/demoniccondemnationdoomed.jpg
-general/demoniccondemnationlanguid.jpg	https://lackey.krcg.org/sets/setimages/general/demoniccondemnationlanguid.jpg
-general/demoniccondemnationmute.jpg	https://lackey.krcg.org/sets/setimages/general/demoniccondemnationmute.jpg
-general/demonicconfusionoftheeye.jpg	https://lackey.krcg.org/sets/setimages/general/demonicconfusionoftheeye.jpg
-general/demonicfreakdrive.jpg	https://lackey.krcg.org/sets/setimages/general/demonicfreakdrive.jpg
-general/demonicheraldoftopheth.jpg	https://lackey.krcg.org/sets/setimages/general/demonicheraldoftopheth.jpg
-general/demonicminiontap.jpg	https://lackey.krcg.org/sets/setimages/general/demonicminiontap.jpg
-general/demonicpulseofthecanaille.jpg	https://lackey.krcg.org/sets/setimages/general/demonicpulseofthecanaille.jpg
-general/demonictrap.jpg	https://lackey.krcg.org/sets/setimages/general/demonictrap.jpg
-general/distorttime.jpg	https://lackey.krcg.org/sets/setimages/general/distorttime.jpg
-general/domainauckland.jpg	https://lackey.krcg.org/sets/setimages/general/domainauckland.jpg
-general/domainbrisbane.jpg	https://lackey.krcg.org/sets/setimages/general/domainbrisbane.jpg
-general/domaincanberra.jpg	https://lackey.krcg.org/sets/setimages/general/domaincanberra.jpg
-general/domainmelbourne.jpg	https://lackey.krcg.org/sets/setimages/general/domainmelbourne.jpg
-general/domainsydney.jpg	https://lackey.krcg.org/sets/setimages/general/domainsydney.jpg
-general/domaintownsville.jpg	https://lackey.krcg.org/sets/setimages/general/domaintownsville.jpg
-general/domainwellington.jpg	https://lackey.krcg.org/sets/setimages/general/domainwellington.jpg
-general/draconthe_storyline.jpg	https://lackey.krcg.org/sets/setimages/general/draconthe_storyline.jpg
-general/dualityadv_storyline.jpg	https://lackey.krcg.org/sets/setimages/general/dualityadv_storyline.jpg
-general/edge.png	https://lackey.krcg.org/sets/setimages/general/edge.png
-general/edge2.png	https://lackey.krcg.org/sets/setimages/general/edge2.png
-general/edgecard.jpg	https://lackey.krcg.org/sets/setimages/general/edgecard.jpg
-general/edwardgrey.jpg	https://lackey.krcg.org/sets/setimages/general/edwardgrey.jpg
-general/egyptiandagger.jpg	https://lackey.krcg.org/sets/setimages/general/egyptiandagger.jpg
-general/emmadodd.jpg	https://lackey.krcg.org/sets/setimages/general/emmadodd.jpg
-general/estobaldumas.jpg	https://lackey.krcg.org/sets/setimages/general/estobaldumas.jpg
-general/exeterchantrylondon.jpg	https://lackey.krcg.org/sets/setimages/general/exeterchantrylondon.jpg
-general/exlibrisnecro.jpg	https://lackey.krcg.org/sets/setimages/general/exlibrisnecro.jpg
-general/fangjumper.jpg	https://lackey.krcg.org/sets/setimages/general/fangjumper.jpg
-general/floatingonethe.jpg	https://lackey.krcg.org/sets/setimages/general/floatingonethe.jpg
-general/formofdemoniccorruption.jpg	https://lackey.krcg.org/sets/setimages/general/formofdemoniccorruption.jpg
-general/frateranson.jpg	https://lackey.krcg.org/sets/setimages/general/frateranson.jpg
-general/garmrhoundofhel.jpg	https://lackey.krcg.org/sets/setimages/general/garmrhoundofhel.jpg
-general/gerihungrywolf.jpg	https://lackey.krcg.org/sets/setimages/general/gerihungrywolf.jpg
-general/gjallahornhornofheimdall.jpg	https://lackey.krcg.org/sets/setimages/general/gjallahornhornofheimdall.jpg
-general/glasshousemountains.jpg	https://lackey.krcg.org/sets/setimages/general/glasshousemountains.jpg
-general/golgolfangsfirst.jpg	https://lackey.krcg.org/sets/setimages/general/golgolfangsfirst.jpg
-general/greatercatatonicfear.jpg	https://lackey.krcg.org/sets/setimages/general/greatercatatonicfear.jpg
-general/greaterfacelessnight.jpg	https://lackey.krcg.org/sets/setimages/general/greaterfacelessnight.jpg
-general/greaterfearofthevoidbelow.jpg	https://lackey.krcg.org/sets/setimages/general/greaterfearofthevoidbelow.jpg
-general/greaterhavenuncovered.jpg	https://lackey.krcg.org/sets/setimages/general/greaterhavenuncovered.jpg
-general/greaterrotschreck.jpg	https://lackey.krcg.org/sets/setimages/general/greaterrotschreck.jpg
-general/greatertelepathiccounter.jpg	https://lackey.krcg.org/sets/setimages/general/greatertelepathiccounter.jpg
-general/greatertelepathicmisdirection.jpg	https://lackey.krcg.org/sets/setimages/general/greatertelepathicmisdirection.jpg
-general/greaterundeadpersistence.jpg	https://lackey.krcg.org/sets/setimages/general/greaterundeadpersistence.jpg
-general/greaterwakewitheveningsfreshness.jpg	https://lackey.krcg.org/sets/setimages/general/greaterwakewitheveningsfreshness.jpg
-general/gungnirodin'sspear.jpg	https://lackey.krcg.org/sets/setimages/general/gungnirodin'sspear.jpg
-general/guntheroddeye.jpg	https://lackey.krcg.org/sets/setimages/general/guntheroddeye.jpg
-general/hatimoonchaser.jpg	https://lackey.krcg.org/sets/setimages/general/hatimoonchaser.jpg
-general/healself.jpg	https://lackey.krcg.org/sets/setimages/general/healself.jpg
-general/helmistressoftheunderworld.jpg	https://lackey.krcg.org/sets/setimages/general/helmistressoftheunderworld.jpg
-general/huginnraven.jpg	https://lackey.krcg.org/sets/setimages/general/huginnraven.jpg
-general/imbuedrules1.jpg	https://lackey.krcg.org/sets/setimages/general/imbuedrules1.jpg
-general/imbuedrules2.jpg	https://lackey.krcg.org/sets/setimages/general/imbuedrules2.jpg
-general/imbuedrules3.jpg	https://lackey.krcg.org/sets/setimages/general/imbuedrules3.jpg
-general/imbuedrules4.jpg	https://lackey.krcg.org/sets/setimages/general/imbuedrules4.jpg
-general/imbuedrules5.jpg	https://lackey.krcg.org/sets/setimages/general/imbuedrules5.jpg
-general/infernalconflagration.jpg	https://lackey.krcg.org/sets/setimages/general/infernalconflagration.jpg
-general/infernalcontagion.jpg	https://lackey.krcg.org/sets/setimages/general/infernalcontagion.jpg
-general/infernalecstasy.jpg	https://lackey.krcg.org/sets/setimages/general/infernalecstasy.jpg
-general/infernalperfectionist.jpg	https://lackey.krcg.org/sets/setimages/general/infernalperfectionist.jpg
-general/infernalpsychomachia.jpg	https://lackey.krcg.org/sets/setimages/general/infernalpsychomachia.jpg
-general/infernalregeneration.jpg	https://lackey.krcg.org/sets/setimages/general/infernalregeneration.jpg
-general/infernalruinsofcharizel.jpg	https://lackey.krcg.org/sets/setimages/general/infernalruinsofcharizel.jpg
-general/inferno.jpg	https://lackey.krcg.org/sets/setimages/general/inferno.jpg
-general/irvingsloan.jpg	https://lackey.krcg.org/sets/setimages/general/irvingsloan.jpg
-general/jensmith.jpg	https://lackey.krcg.org/sets/setimages/general/jensmith.jpg
-general/johannkurtzweil.jpg	https://lackey.krcg.org/sets/setimages/general/johannkurtzweil.jpg
-general/jormungandrmidgardserpent.jpg	https://lackey.krcg.org/sets/setimages/general/jormungandrmidgardserpent.jpg
-general/josiahlamb.jpg	https://lackey.krcg.org/sets/setimages/general/josiahlamb.jpg
-general/ke.jpg	https://lackey.krcg.org/sets/setimages/general/ke.jpg
-general/kinfolkcontact.jpg	https://lackey.krcg.org/sets/setimages/general/kinfolkcontact.jpg
-general/kingofthebeasts.jpg	https://lackey.krcg.org/sets/setimages/general/kingofthebeasts.jpg
-general/kraken.jpg	https://lackey.krcg.org/sets/setimages/general/kraken.jpg
-general/kristofftheblack.jpg	https://lackey.krcg.org/sets/setimages/general/kristofftheblack.jpg
-general/laevateinnswordoffreya.jpg	https://lackey.krcg.org/sets/setimages/general/laevateinnswordoffreya.jpg
-general/liaisonmarker.jpg	https://lackey.krcg.org/sets/setimages/general/liaisonmarker.jpg
-general/locateweakness.jpg	https://lackey.krcg.org/sets/setimages/general/locateweakness.jpg
-general/lokitrickstergod.jpg	https://lackey.krcg.org/sets/setimages/general/lokitrickstergod.jpg
-general/lorddom.jpg	https://lackey.krcg.org/sets/setimages/general/lorddom.jpg
-general/lunasarmour.jpg	https://lackey.krcg.org/sets/setimages/general/lunasarmour.jpg
-general/lunasblessing.jpg	https://lackey.krcg.org/sets/setimages/general/lunasblessing.jpg
-general/manafromheaven.jpg	https://lackey.krcg.org/sets/setimages/general/manafromheaven.jpg
-general/marcusdeallegresse.jpg	https://lackey.krcg.org/sets/setimages/general/marcusdeallegresse.jpg
-general/masterofcorrespondence.jpg	https://lackey.krcg.org/sets/setimages/general/masterofcorrespondence.jpg
-general/masterofentropy.jpg	https://lackey.krcg.org/sets/setimages/general/masterofentropy.jpg
-general/masterofforces.jpg	https://lackey.krcg.org/sets/setimages/general/masterofforces.jpg
-general/masteroflife.jpg	https://lackey.krcg.org/sets/setimages/general/masteroflife.jpg
-general/masterofmatter.jpg	https://lackey.krcg.org/sets/setimages/general/masterofmatter.jpg
-general/masterofmind.jpg	https://lackey.krcg.org/sets/setimages/general/masterofmind.jpg
-general/masterofprime.jpg	https://lackey.krcg.org/sets/setimages/general/masterofprime.jpg
-general/masterofspirit.jpg	https://lackey.krcg.org/sets/setimages/general/masterofspirit.jpg
-general/masteroftime.jpg	https://lackey.krcg.org/sets/setimages/general/masteroftime.jpg
-general/melissachong.jpg	https://lackey.krcg.org/sets/setimages/general/melissachong.jpg
-general/mithras_storyline.jpg	https://lackey.krcg.org/sets/setimages/general/mithras_storyline.jpg
-general/mjolnirthorshammer.jpg	https://lackey.krcg.org/sets/setimages/general/mjolnirthorshammer.jpg
-general/montano_storyline.jpg	https://lackey.krcg.org/sets/setimages/general/montano_storyline.jpg
-general/motherstouch.jpg	https://lackey.krcg.org/sets/setimages/general/motherstouch.jpg
-general/motivatedbygehenna.jpg	https://lackey.krcg.org/sets/setimages/general/motivatedbygehenna.jpg
-general/motivatedbyjyhad.jpg	https://lackey.krcg.org/sets/setimages/general/motivatedbyjyhad.jpg
-general/motivatedbyknowledge.jpg	https://lackey.krcg.org/sets/setimages/general/motivatedbyknowledge.jpg
-general/motivatedbysecrecy.jpg	https://lackey.krcg.org/sets/setimages/general/motivatedbysecrecy.jpg
-general/muninnraven.jpg	https://lackey.krcg.org/sets/setimages/general/muninnraven.jpg
-general/natachadimitrivaradocara_storyline.jpg	https://lackey.krcg.org/sets/setimages/general/natachadimitrivaradocara_storyline.jpg
-general/nathanielgalpin.jpg	https://lackey.krcg.org/sets/setimages/general/nathanielgalpin.jpg
-general/nefertitiadv_storyline.jpg	https://lackey.krcg.org/sets/setimages/general/nefertitiadv_storyline.jpg
-general/nergalcallsthegreatbeast.jpg	https://lackey.krcg.org/sets/setimages/general/nergalcallsthegreatbeast.jpg
-general/nergalignoresthesearingflames.jpg	https://lackey.krcg.org/sets/setimages/general/nergalignoresthesearingflames.jpg
-general/nergalprinceofhell.jpg	https://lackey.krcg.org/sets/setimages/general/nergalprinceofhell.jpg
-general/nergalsblooddoll.jpg	https://lackey.krcg.org/sets/setimages/general/nergalsblooddoll.jpg
-general/nergalsconcordance.jpg	https://lackey.krcg.org/sets/setimages/general/nergalsconcordance.jpg
-general/nergalsfragmentofthebookofnod.jpg	https://lackey.krcg.org/sets/setimages/general/nergalsfragmentofthebookofnod.jpg
-general/nergalsgiantsblood.jpg	https://lackey.krcg.org/sets/setimages/general/nergalsgiantsblood.jpg
-general/nidhoggthehungryworm.jpg	https://lackey.krcg.org/sets/setimages/general/nidhoggthehungryworm.jpg
-general/operationantigencountdown.jpg	https://lackey.krcg.org/sets/setimages/general/operationantigencountdown.jpg
-general/parliamenthousecanberra.jpg	https://lackey.krcg.org/sets/setimages/general/parliamenthousecanberra.jpg
-general/percival_storyline.jpg	https://lackey.krcg.org/sets/setimages/general/percival_storyline.jpg
-general/philippedemarseillesadv_storyline.jpg	https://lackey.krcg.org/sets/setimages/general/philippedemarseillesadv_storyline.jpg
-general/phrygiancap.jpg	https://lackey.krcg.org/sets/setimages/general/phrygiancap.jpg
-general/pierredecalice.jpg	https://lackey.krcg.org/sets/setimages/general/pierredecalice.jpg
-general/probethoughts.jpg	https://lackey.krcg.org/sets/setimages/general/probethoughts.jpg
-general/prophail.jpg	https://lackey.krcg.org/sets/setimages/general/prophail.jpg
-general/quintessencecounter.jpg	https://lackey.krcg.org/sets/setimages/general/quintessencecounter.jpg
-general/razorclaws.jpg	https://lackey.krcg.org/sets/setimages/general/razorclaws.jpg
-general/rebeccamitsotakai.jpg	https://lackey.krcg.org/sets/setimages/general/rebeccamitsotakai.jpg
-general/recklessabandonment.jpg	https://lackey.krcg.org/sets/setimages/general/recklessabandonment.jpg
-general/redsignthe.jpg	https://lackey.krcg.org/sets/setimages/general/redsignthe.jpg
-general/rogerdaly.jpg	https://lackey.krcg.org/sets/setimages/general/rogerdaly.jpg
-general/rubyring.jpg	https://lackey.krcg.org/sets/setimages/general/rubyring.jpg
-general/rutoradv_storyline.jpg	https://lackey.krcg.org/sets/setimages/general/rutoradv_storyline.jpg
-general/rutorsinfernalhand.jpg	https://lackey.krcg.org/sets/setimages/general/rutorsinfernalhand.jpg
-general/saintthe.jpg	https://lackey.krcg.org/sets/setimages/general/saintthe.jpg
-general/scarthroatleechkiller.jpg	https://lackey.krcg.org/sets/setimages/general/scarthroatleechkiller.jpg
-general/sealofmithras.jpg	https://lackey.krcg.org/sets/setimages/general/sealofmithras.jpg
-general/seating1.jpg	https://lackey.krcg.org/sets/setimages/general/seating1.jpg
-general/seating2.jpg	https://lackey.krcg.org/sets/setimages/general/seating2.jpg
-general/seating3.jpg	https://lackey.krcg.org/sets/setimages/general/seating3.jpg
-general/seating4.jpg	https://lackey.krcg.org/sets/setimages/general/seating4.jpg
-general/seating5.jpg	https://lackey.krcg.org/sets/setimages/general/seating5.jpg
-general/senseconnection.jpg	https://lackey.krcg.org/sets/setimages/general/senseconnection.jpg
-general/sensetheinfernalsin.jpg	https://lackey.krcg.org/sets/setimages/general/sensetheinfernalsin.jpg
-general/sensewyrm.jpg	https://lackey.krcg.org/sets/setimages/general/sensewyrm.jpg
-general/shadethe.jpg	https://lackey.krcg.org/sets/setimages/general/shadethe.jpg
-general/skinoftheinfernaladder.jpg	https://lackey.krcg.org/sets/setimages/general/skinoftheinfernaladder.jpg
-general/skollsunchaser.jpg	https://lackey.krcg.org/sets/setimages/general/skollsunchaser.jpg
-general/sleipnirgreatestofsteeds.jpg	https://lackey.krcg.org/sets/setimages/general/sleipnirgreatestofsteeds.jpg
-general/sonofmoonlight.jpg	https://lackey.krcg.org/sets/setimages/general/sonofmoonlight.jpg
-general/sophiachevallier.jpg	https://lackey.krcg.org/sets/setimages/general/sophiachevallier.jpg
-general/steppingsideways.jpg	https://lackey.krcg.org/sets/setimages/general/steppingsideways.jpg
-general/stepsideways.jpg	https://lackey.krcg.org/sets/setimages/general/stepsideways.jpg
-general/strawintogold.jpg	https://lackey.krcg.org/sets/setimages/general/strawintogold.jpg
-general/stuarttechnobabblejaques.jpg	https://lackey.krcg.org/sets/setimages/general/stuarttechnobabblejaques.jpg
-general/sutrwarriorgiant.jpg	https://lackey.krcg.org/sets/setimages/general/sutrwarriorgiant.jpg
-general/svalinnshieldofthesun.jpg	https://lackey.krcg.org/sets/setimages/general/svalinnshieldofthesun.jpg
-general/swallowedbythedemonicnight.jpg	https://lackey.krcg.org/sets/setimages/general/swallowedbythedemonicnight.jpg
-general/teotihuacan.jpg	https://lackey.krcg.org/sets/setimages/general/teotihuacan.jpg
-general/themistoclesadv_storyline.jpg	https://lackey.krcg.org/sets/setimages/general/themistoclesadv_storyline.jpg
-general/thralltotheblood.jpg	https://lackey.krcg.org/sets/setimages/general/thralltotheblood.jpg
-general/tonywedd.jpg	https://lackey.krcg.org/sets/setimages/general/tonywedd.jpg
-general/tremere_storyline.jpg	https://lackey.krcg.org/sets/setimages/general/tremere_storyline.jpg
-general/underworldenforcer.jpg	https://lackey.krcg.org/sets/setimages/general/underworldenforcer.jpg
-general/valkyrie_storyline.jpg	https://lackey.krcg.org/sets/setimages/general/valkyrie_storyline.jpg
-general/virustowyrm.jpg	https://lackey.krcg.org/sets/setimages/general/virustowyrm.jpg
-general/visageofcaine.jpg	https://lackey.krcg.org/sets/setimages/general/visageofcaine.jpg
-general/vladtepesdracula_storyline.jpg	https://lackey.krcg.org/sets/setimages/general/vladtepesdracula_storyline.jpg
-general/walkofinfernalflame.jpg	https://lackey.krcg.org/sets/setimages/general/walkofinfernalflame.jpg
-general/windycitycoffeecart.jpg	https://lackey.krcg.org/sets/setimages/general/windycitycoffeecart.jpg
-general/yellowsignthe.jpg	https://lackey.krcg.org/sets/setimages/general/yellowsignthe.jpg
 CardGeneralURLs:
 https://static.krcg.org/card/

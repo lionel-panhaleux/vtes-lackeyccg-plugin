@@ -57,7 +57,7 @@ with open("plugin/version.txt", "w") as fp:
 
 with open("plugin/updatelist.txt", "w") as fp:
     print("vtes", f"{version_date:%m-%d-%y}", sep="\t", file=fp)
-    images = []
+    files = []
     for dirpath, dirnames, filenames in os.walk("plugin"):
         for filename in sorted(filenames):
             if filename in [".DS_Store", "updatelist.txt", "index.html"]:
@@ -68,28 +68,21 @@ with open("plugin/updatelist.txt", "w") as fp:
             else:
                 local_path = dirpath.replace("plugin", "plugins/vtes") + "/" + filename
             server_path = dirpath.replace("plugin", LACKEY_SERVER_ROOT) + "/" + filename
-            if dirpath == "plugin/sets/setimages/general":
-                images.append([f"general/{filename}", server_path])
-                continue
             if filename in ["pluginpreferences.txt", "defaultchat.txt"]:
                 h = 0
             else:
                 h = checksum(filepath)
-            print(local_path, server_path, h, sep="\t", file=fp)
-    print("CardImageURLs:", file=fp)
-    print(
-        "general/cardback.jpg",
-        LACKEY_SERVER_ROOT + "/cardback.jpg",
-        sep="\t",
-        file=fp,
-    )
-    print(
-        "general/spawned.jpg",
-        LACKEY_SERVER_ROOT + "/spawned.jpg",
-        sep="\t",
-        file=fp,
-    )
-    for info in images:
+            files.append([local_path, server_path, h])
+            if local_path in [
+                "plugins/vtes/cardback.jpg",
+                "plugins/vtes/spawned.jpg",
+                "plugins/vtes/spawned.png",
+            ]:
+                local_path = local_path.replace(
+                    "plugins/vtes", "plugins/vtes/sets/setimages/general"
+                )
+                files.append([local_path, server_path, h])
+    for info in files:
         print(*info, sep="\t", file=fp)
     print("CardGeneralURLs:", file=fp)
     print("https://static.krcg.org/card/", file=fp)
