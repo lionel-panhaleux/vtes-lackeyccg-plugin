@@ -1,4 +1,4 @@
-name: Release
+name: Manual Release
 run-name: ${{ github.actor }} is releasing VTES LackeyCCG plugin manually 🚀
 on:
   workflow_dispatch:
