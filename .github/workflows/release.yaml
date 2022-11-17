@@ -22,13 +22,16 @@ jobs:
         run: git diff --exit-code
       - name: Generate build folder
         run: make build
+      - name: Get tag name
+        id: tagname
+        uses: olegtarasov/get-tag@v2.1.2
       - name: Upload zip
         uses: actions/upload-artifact@v3
         with:
-          name: ${{ inputs.ref_name  }}/vtes-lackey.zip
+          name: ${{ steps.tagname.outputs.tag }}-vtes-lackey.zip
           path: build/vtes-lackey.zip
       - name: Upload gzip
         uses: actions/upload-artifact@v3
         with:
-          name: ${{ inputs.ref_name  }}/vtes-lackey.tar.gz
+          name: ${{ steps.tagname.outputs.tag }}-vtes-lackey.tar.gz
           path: build/vtes-lackey.tar.gz

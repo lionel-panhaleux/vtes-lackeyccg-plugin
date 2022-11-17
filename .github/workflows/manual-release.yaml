@@ -24,15 +24,25 @@ jobs:
         run: make list
       - name: Check for differences
         run: git diff --exit-code
+      - name: Create tag
+        uses: actions/github-script@v6.3.3
+        with:
+          script: |
+            github.rest.git.createRef({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: 'refs/tags/${{ inputs.version  }}',
+              sha: context.sha
+            })
       - name: Generate build folder
         run: make build
       - name: Upload zip
         uses: actions/upload-artifact@v3
         with:
-          name: manual/${{ inputs.version  }}/vtes-lackey.zip
+          name: ${{ inputs.version  }}-vtes-lackey.zip
           path: build/vtes-lackey.zip
       - name: Upload gzip
         uses: actions/upload-artifact@v3
         with:
-          name: manual/${{ inputs.version  }}/vtes-lackey.tar.gz
+          name: ${{ inputs.version  }}-vtes-lackey.tar.gz
           path: build/vtes-lackey.tar.gz
