@@ -1,5 +1,6 @@
 # LackeyCCG VTES Plugin
 
+[![Validation](https://github.com/lionel-panhaleux/vtes-lackeyccg-plugin/workflows/Test/badge.svg)](https://github.com/lionel-panhaleux/vtes-lackeyccg-plugin/actions)
 [![License](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/licenses/MIT)
 
 This is a [LackeyCCG](https://lackeyccg.com) plugin for
@@ -28,6 +29,11 @@ Then call `make update` to install the Python requirements. You're ready.
 
 - To update the cards list: `make cards`
 - To generate the plugin list and version files: `make list`
+- Commit and push your results
+- Make sure [the tests pass](https://github.com/lionel-panhaleux/vtes-lackeyccg-plugin/actions)
+- [Tag it](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
+- Use `make build` to build the plugin `zip` and `tar.gz` files in the `build` folder
+- Create a [release in Github](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases), upload the `zip` and `tar.gz` files
 
 ### Put it online
 
