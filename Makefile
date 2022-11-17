@@ -1,6 +1,6 @@
 .PHONY: update version cards list clean build check release deploy local
 
-SERVER_SSH ?= krcg.org:projects/lackey.krcg.org/dist
+SERVER_SSH ?= krcg_deploy@krcg.org:projects/lackey.krcg.org/dist
 SSH_LOGIN ?= krcg_deploy
 SSH_KEY_FILE ?= ~/.ssh/krcg_deploy
 SERVER_HTTP ?= https://lackey.krcg.org
