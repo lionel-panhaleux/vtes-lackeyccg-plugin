@@ -31,12 +31,9 @@ build: clean
 	LACKEY_SERVER_ROOT=${SERVER_HTTP} python -m builder
 
 # check there is no standing change
-# echo WTF
-# echo `git branch --show-current`
-# if [ `git branch --show-current` != "main"]; then echo A; else echo B; fi
-# if [ `git branch --show-current` != "main"]; then $(error not on main branch) fi
 check:
-	if [ ! -z `git status --porcelain` ]; then $(error working directory is dirty) fi
+	@if [[ `git branch --show-current` != "main" ]]; then echo "not on main branch"; exit 1; fi
+	@if [[ ! -z `git status --porcelain` ]]; then echo "working directory is dirty"; exit 1; fi
 
 # release (make sure there is no change, build the archive files, then tag and push)
 release: version cards list check build
