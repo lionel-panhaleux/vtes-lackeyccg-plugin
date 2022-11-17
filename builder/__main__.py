@@ -23,5 +23,5 @@ for line in updatelist:
     os.makedirs(os.path.dirname(local), exist_ok=True)
     shutil.copyfile(server, local)
 shutil.copyfile("plugin/updatelist.txt", "build/vtes/updatelist.txt")
-shutil.make_archive("build/vtes", "zip", "build/vtes")
-shutil.make_archive("build/vtes", "gztar", "build/vtes")
+shutil.make_archive("build/vtes-lackey", "zip", "build/vtes")
+shutil.make_archive("build/vtes-lackey", "gztar", "build/vtes")
