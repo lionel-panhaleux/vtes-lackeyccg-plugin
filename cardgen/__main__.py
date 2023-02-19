@@ -1,7 +1,10 @@
+import os
+
 from krcg import utils
 from krcg import vtes
 from unidecode import unidecode
 
+PLAYTEST_SET = os.getenv("PLAYTEST_SET")
 
 SET_MAP = {
     "1996 Promo": "Promo",
@@ -98,8 +101,13 @@ def pack_line(*args):
     return "\t".join(args) + "\n"
 
 
-def yield_cards_data():
+def yield_cards_data(playtest_set: str = None):
     vtes.VTES.load_from_vekn()
+    if playtest_set:
+        with open("playtest/lib.csv", "rb") as lib, open(
+            "playtest/crypt.csv", "rb"
+        ) as crypt:
+            vtes.VTES.load_from_files(lib, crypt, set_abbrev=playtest_set)
     yield pack_line(
         "Name",
         "Set",
@@ -124,9 +132,14 @@ def yield_cards_data():
         card_text = c.card_text.replace("\t", " ").replace("\n", " ")
         card_text = card_text.replace("/", "").replace("{", "").replace("}", "")
         card_text = card_text.replace("Ⓓ", "(D)")
+        _set = (
+            SET_MAP.get(c.ordered_sets[-1], c.ordered_sets[-1])
+            if c.ordered_sets
+            else ""
+        )
         yield pack_line(
             unidecode(c.vekn_name),
-            SET_MAP[c.ordered_sets[-1]],
+            _set,
             filename,
             "/".join(c.types),
             "/".join(c.clans),
@@ -136,9 +149,9 @@ def yield_cards_data():
             str(c.pool_cost or ""),
             str(c.blood_cost or ""),
             unidecode(card_text),
-            c._set,
+            c._set or "",
         )
 
 
 with open("plugin/sets/allsets.txt", "w") as f:
-    f.writelines(yield_cards_data())
+    f.writelines(yield_cards_data(playtest_set=PLAYTEST_SET))

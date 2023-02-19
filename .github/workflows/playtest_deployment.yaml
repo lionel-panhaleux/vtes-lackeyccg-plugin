@@ -1,0 +1,23 @@
+name: Playtest Deployment
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Tag"
+        required: true
+jobs:
+  deployment:
+    runs-on: ubuntu-latest
+    environment: krcg.org
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: refs/tags/${{ inputs.tag }}
+      - name: Setup SSH key
+        run: |
+          mkdir /home/runner/.ssh
+          echo "${{ secrets.KRCG_DEPLOY_KEY }}" > /home/runner/.ssh/id_rsa
+          chmod 600 /home/runner/.ssh/id_rsa
+          echo "${{ secrets.KRCG_HOST_ID }}" > /home/runner/.ssh/known_hosts
+      - name: Deploy files to server
+        run: SSH_KEY_FILE="/home/runner/.ssh/id_rsa" make playtest-deploy

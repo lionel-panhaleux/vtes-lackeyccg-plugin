@@ -6,6 +6,8 @@ import os
 from . import version
 
 LACKEY_SERVER_ROOT = os.getenv("LACKEY_SERVER_ROOT")
+PLUGIN_NAME = os.getenv("PLUGIN_NAME")
+PLUGIN_UID = os.getenv("PLUGIN_UID")
 
 # remove any trailing slash
 assert LACKEY_SERVER_ROOT, "LACKEY_SERVER_ROOT environment variable required"
@@ -48,15 +50,16 @@ with open("plugin/version.txt", "w") as fp:
 
 <lastupdateYYMMDD>{version_date:%y%m%d}</lastupdateYYMMDD>
  <quality>HIGH</quality>
- <versionurl>https://lackey.krcg.org/version.txt</versionurl>
- <updateurl>https://lackey.krcg.org/updatelist.txt</updateurl>
- <message>VtES updated to version {version_date:%Y-%m-%d}</message>
+ <versionurl>https://lackey.krcg.org/{PLUGIN_UID + '/' if PLUGIN_UID else ''}version.txt</versionurl>
+ <updateurl>https://lackey.krcg.org/{PLUGIN_UID + '/' if PLUGIN_UID else ''}updatelist.txt</updateurl>
+ <message>VtES {'Playtest ' if PLUGIN_UID else ''}updated to version {version_date:%Y-%m-%d}</message>
 </version>
 """
     )
 
+
 with open("plugin/updatelist.txt", "w") as fp:
-    print("vtes", f"{version_date:%m-%d-%y}", sep="\t", file=fp)
+    print(PLUGIN_NAME, f"{version_date:%m-%d-%y}", sep="\t", file=fp)
     for dirpath, dirnames, filenames in os.walk("plugin"):
         # build an release check for modifications, make sure the order is stable
         dirnames.sort()
@@ -68,7 +71,7 @@ with open("plugin/updatelist.txt", "w") as fp:
             if dirpath in TOP_PATH:
                 local_path = dirpath.replace("plugin/", "") + "/" + filename
             else:
-                local_path = dirpath.replace("plugin", "plugins/vtes") + "/" + filename
+                local_path = dirpath.replace("plugin", f"plugins/{PLUGIN_NAME}") + "/" + filename
             server_path = dirpath.replace("plugin", LACKEY_SERVER_ROOT) + "/" + filename
             if filename in ["pluginpreferences.txt", "defaultchat.txt"]:
                 h = 0
@@ -76,12 +79,12 @@ with open("plugin/updatelist.txt", "w") as fp:
                 h = checksum(filepath)
             print(local_path, server_path, h, sep="\t", file=fp)
             if local_path in {
-                "plugins/vtes/cardback.jpg",
-                "plugins/vtes/spawned.jpg",
-                "plugins/vtes/spawned.png",
+                f"plugins/{PLUGIN_NAME}/cardback.jpg",
+                f"plugins/{PLUGIN_NAME}/spawned.jpg",
+                f"plugins/{PLUGIN_NAME}/spawned.png",
             }:
                 local_path = local_path.replace(
-                    "plugins/vtes", "plugins/vtes/sets/setimages/general"
+                    f"plugins/{PLUGIN_NAME}", f"plugins/{PLUGIN_NAME}/sets/setimages/general"
                 )
                 print(local_path, server_path, h, sep="\t", file=fp)
     print("CardGeneralURLs:", file=fp)

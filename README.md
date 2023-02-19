@@ -39,3 +39,25 @@ Then call `make update` to install the Python requirements. You're ready.
 ### Put it online
 
 Go to Github Actions tab and use the `Deployment` action. Just select your tag and run it.
+
+### Prepare a playtest plugin
+
+Preparing a **playtest** plugin requires different steps:
+
+- Use the playtest branch: `git checkout playtest`
+- Revert to a clean slate: `git reset --hard blank-playtest`
+- Rebase to the current plugin version: `git rebase main`
+- Make all the required modifications:
+  * cards images in `plugin/sets/setimages/general/`
+  * cards info in `plugin/sets/allsets.txt`
+- Put the playtest extension CSV files in the `playtest` folder:
+  * Crypt cards in `playtest/crypt.csv`
+  * Library cards in `playtest/lib.csv`
+- Generate the plugin cards list (choose a set abbreviation): `PLAYTEST_SET='FoL' make playtest-cards`
+- Generate the plugin list and version files: `make playtest-list`
+- Commit and push your results
+- Release: `make playtest-release`. This will tag the version.
+
+### Put the playtest plugin online
+
+Go to Github Actions tab and use the `Playtest Deployment` action. Just select your tag and run it.
